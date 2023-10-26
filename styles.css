@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+
+.flex-container{
+    background-color: #00A9FF;
+    display: flex;
+}
+
+.flex-item{
+    background-color: #89CFF3;
+    padding: 5em;
+    margin: 1em;
+}
