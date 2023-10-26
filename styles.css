@@ -5,10 +5,23 @@ body{
 .flex-container{
     background-color: #00A9FF;
     display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .flex-item{
     background-color: #89CFF3;
-    padding: 5em;
+    padding: 2em;
     margin: 1em;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width: 600px) {
+    .flex-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        text-align: center;
+    }
 }
